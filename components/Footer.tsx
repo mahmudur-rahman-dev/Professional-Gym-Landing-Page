@@ -58,7 +58,7 @@ const Footer = () => {
           <motion.div variants={footerItem} className='flex flex-col gap-4'>
             <Link href='#'>
               <Image
-                src={'/assets/img/logo.png'}
+                src={'/assets/img/logo-own.png'}
                 width={117}
                 height={55}
                 alt=''
@@ -71,16 +71,16 @@ const Footer = () => {
             <ul className='flex flex-col gap-4'>
               <li className='flex items-center gap-4'>
                 <FaMapMarkerAlt className='text-xl text-accent' />
-                <span>Lincoln Park Chicago, Illinois</span>
+                <span>New York, United States</span>
               </li>
               <li className='flex items-center gap-4'>
                 <FaPhoneAlt className='text-xl text-accent' />
-                <span>(510) 710-3464 (510) 640-6326</span>
+                <span>(+1) (555) 456-7890</span>
               </li>
               <li>
                 <Link className='flex items-center gap-4' href='#'>
                   <FaEnvelope className='text-xl text-accent' />
-                  <span>sayhello@email.com</span>
+                  <span>corestrength@email.com</span>
                 </Link>
               </li>
             </ul>
@@ -95,7 +95,7 @@ const Footer = () => {
                   How to stay motivated for all exercises
                 </h5>
                 <p className='text-gray-400 text-[12px] tracking-[3px] uppercase'>
-                  September 22, 2024
+                  August 31, 2024
                 </p>
               </Link>
             </div>
@@ -106,7 +106,7 @@ const Footer = () => {
                   How to stay motivated for all exercises
                 </h5>
                 <p className='text-gray-400 text-[12px] tracking-[3px] uppercase'>
-                  September 22, 2024
+                  August 31, 2024
                 </p>
               </Link>
             </div>
@@ -117,7 +117,7 @@ const Footer = () => {
                   How to stay motivated for all exercises
                 </h5>
                 <p className='text-gray-400 text-[12px] tracking-[3px] uppercase'>
-                  September 22, 2024
+                  August 31, 2024
                 </p>
               </Link>
             </div>
@@ -210,7 +210,7 @@ const Footer = () => {
       <div className='text-white border-t border-white/20 py-12'>
         <div className='container mx-auto h-full'>
           <div className='flex items-center justify-between h-full'>
-            <span>&copy; Copyright 2024 Fitphysique</span>
+            <span>&copy; Copyright 2024 Corestrength</span>
             <ul className='flex gap-4 text-xl'>
               <li>
                 <Link
