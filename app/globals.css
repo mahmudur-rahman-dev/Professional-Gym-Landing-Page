@@ -1,10 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Oswald:wght@400;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
+  .font-roboto {
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .font-oswald {
+    font-family: 'Oswald', sans-serif;
+  }
+
   body {
-    @apply font-roboto;
+    font-family: 'Roboto', sans-serif;
   }
 
   h1,
@@ -13,36 +23,41 @@
   h4,
   h5,
   h6 {
-    @apply font-oswald font-bold uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
   }
 
   .h1 {
-    @apply text-white text-7xl lg:text-[128px] tracking-[-3px];
+    color: white;
+    font-size: 7rem;
+    line-height: 1;
+    letter-spacing: -0.1875rem;
   }
 
   .h2 {
-    @apply text-[36px];
+    font-size: 2.25rem;
   }
 
   .h3 {
-    @apply text-[32px];
+    font-size: 2rem;
   }
 
   .h4 {
-    @apply text-[26px];
+    font-size: 1.625rem;
   }
 
   .h5 {
-    @apply text-[22px];
+    font-size: 1.375rem;
   }
 }
 
 .active {
-  @apply text-accent;
+  color: var(--accent-color);
 }
 
 /* swiper pagination styles */
 .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
 .swiper-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
-  @apply bg-accent;
+  background-color: var(--accent-color);
 }
