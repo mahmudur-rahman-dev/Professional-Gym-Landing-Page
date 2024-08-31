@@ -9,22 +9,22 @@ import { useRef } from 'react';
 
 const stats = [
   {
-    number: 19,
+    number: 15,
     icon: FaBriefcase,
     text: 'training courses',
   },
   {
-    number: 879,
+    number: 300,
     icon: FaClock,
     text: 'working hours',
   },
   {
-    number: 150,
+    number: 700,
     icon: ImUsers,
     text: 'happy customers',
   },
   {
-    number: 9,
+    number: 20,
     icon: FaTrophy,
     text: 'international awards',
   },

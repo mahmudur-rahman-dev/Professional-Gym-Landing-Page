@@ -22,7 +22,7 @@ const trainerData = [
     ],
   },
   {
-    image: '/assets/img/trainers/rosy.jpg',
+    image: '/assets/img/trainers/sushil.jpg',
     name: 'Rosy Rivera',
     role: 'Body builder coach',
     description:

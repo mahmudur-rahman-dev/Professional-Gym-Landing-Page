@@ -27,7 +27,7 @@ const HeroSlider = () => {
               viewport={{ once: false, amount: 0.2 }}
               className='h1 text-center lg:text-left mb-2'
             >
-              <span className='text-accent'>Where hard</span> work meets success
+              <span className='text-accent'>Where dedication</span> meets achievement
             </motion.h1>
             <motion.p
               variants={fadeIn('up', 0.6)}
@@ -64,7 +64,7 @@ const HeroSlider = () => {
               viewport={{ once: false, amount: 0.2 }}
               className='h1 text-center lg:text-left mb-2'
             >
-              <span className='text-accent'>Where hard</span> work meets success
+              <span className='text-accent'>Where hard</span> work meets <strong>success</strong> and perseverance
             </motion.h1>
             <motion.p
               variants={fadeIn('up', 0.6)}
