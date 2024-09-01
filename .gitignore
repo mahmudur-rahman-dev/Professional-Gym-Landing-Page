@@ -30,10 +30,6 @@ yarn-error.log*
 
 # TypeScript
 *.tsbuildinfo
-next-env.d.ts
-
-# Tailwind CSS
-tailwind.config.ts
 
 # ESLint cache
 .eslintcache
