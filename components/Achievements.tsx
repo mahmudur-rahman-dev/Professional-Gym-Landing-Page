@@ -55,6 +55,7 @@ const statsItem = {
   },
 };
 
+
 const Achievements = () => {
   const ref = useRef(null);
   const isInView = useInView(ref);
